@@ -1,0 +1,41 @@
+.search_bar {
+  width: 40%;
+  border-radius: 5.9rem;
+  display: flex;
+  background-color: var(--white);
+  padding: 0.7rem 1rem;
+}
+
+.search_bar input {
+  border: none;
+  background: none;
+  width: 100%;
+  color: #291507;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.search_icon {
+  font-size: 1.5rem;
+  color: #291507;
+}
+
+@media only screen and (min-width: 769px) {
+  .search_bar {
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1026px) {
+  .search_bar {
+    padding: 2.4rem 2.8rem;
+  }
+
+  .search_bar input {
+    font-size: 1.8rem;
+  }
+
+  .search_icon {
+    font-size: 1.8rem;
+  }
+}

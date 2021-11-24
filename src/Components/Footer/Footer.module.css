@@ -1,0 +1,31 @@
+.footer {
+  margin-top: 2.2rem;
+  background-color: var(--black);
+  padding: 2.5rem 2.9rem 2rem 2.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border-radius: 4.2rem 4.2rem 0 0;
+}
+
+.footer img {
+  width: 9rem;
+}
+
+.footer p {
+  color: var(--white);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 1.5rem;
+  margin-right: 0.7rem;
+}
+
+.username {
+  margin: 0 0.2rem;
+  text-decoration: underline;
+  font-weight: bold;
+}

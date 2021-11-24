@@ -1,0 +1,56 @@
+.random_cats_cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 4%;
+  row-gap: 1.8rem;
+  align-self: center;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--dark-brown);
+  align-self: center;
+  width: 100%;
+}
+
+.random_cats_card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+  align-items: center;
+  width: 100%;
+  max-width: 22rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  background-size: 100% 100%;
+  border-radius: 2.4rem;
+}
+
+.random_cats_card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.2rem;
+}
+
+.random_cats_card p {
+  color: var(--dark-brown);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 1026px) {
+  .random_cats_cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .random_cats_card p {
+    font-size: 1.8rem;
+  }
+}
