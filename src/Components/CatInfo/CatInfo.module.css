@@ -101,6 +101,7 @@
 
   .info_section {
     gap: 0;
+    margin-top: 4rem;
   }
 
   .info_section p {
