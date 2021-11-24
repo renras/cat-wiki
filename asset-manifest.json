@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cat-wiki/static/css/main.cfcebc22.chunk.css",
+    "main.css": "/cat-wiki/static/css/main.c16741f5.chunk.css",
     "main.js": "/cat-wiki/static/js/main.ae92c99f.chunk.js",
     "main.js.map": "/cat-wiki/static/js/main.ae92c99f.chunk.js.map",
     "runtime-main.js": "/cat-wiki/static/js/runtime-main.edd9ddf7.js",
@@ -8,7 +8,7 @@
     "static/js/2.b8d28a9a.chunk.js": "/cat-wiki/static/js/2.b8d28a9a.chunk.js",
     "static/js/2.b8d28a9a.chunk.js.map": "/cat-wiki/static/js/2.b8d28a9a.chunk.js.map",
     "index.html": "/cat-wiki/index.html",
-    "static/css/main.cfcebc22.chunk.css.map": "/cat-wiki/static/css/main.cfcebc22.chunk.css.map",
+    "static/css/main.c16741f5.chunk.css.map": "/cat-wiki/static/css/main.c16741f5.chunk.css.map",
     "static/js/2.b8d28a9a.chunk.js.LICENSE.txt": "/cat-wiki/static/js/2.b8d28a9a.chunk.js.LICENSE.txt",
     "static/media/CatwikiLogo.92dea8ab.svg": "/cat-wiki/static/media/CatwikiLogo.92dea8ab.svg",
     "static/media/TopSection.module.css": "/cat-wiki/static/media/HeroImagelg.b8e8da01.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.edd9ddf7.js",
     "static/js/2.b8d28a9a.chunk.js",
-    "static/css/main.cfcebc22.chunk.css",
+    "static/css/main.c16741f5.chunk.css",
     "static/js/main.ae92c99f.chunk.js"
   ]
 }
