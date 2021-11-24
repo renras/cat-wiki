@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { getCats } from "./store/appSlice";
 import { useAppDispatch, useAppSelector } from "./store/hooks";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
 import Header from "./Components/Header";
