@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cat-wiki/static/css/main.cfcebc22.chunk.css",
+    "main.js": "/cat-wiki/static/js/main.dd6a7a92.chunk.js",
+    "main.js.map": "/cat-wiki/static/js/main.dd6a7a92.chunk.js.map",
+    "runtime-main.js": "/cat-wiki/static/js/runtime-main.edd9ddf7.js",
+    "runtime-main.js.map": "/cat-wiki/static/js/runtime-main.edd9ddf7.js.map",
+    "static/js/2.562ff27b.chunk.js": "/cat-wiki/static/js/2.562ff27b.chunk.js",
+    "static/js/2.562ff27b.chunk.js.map": "/cat-wiki/static/js/2.562ff27b.chunk.js.map",
+    "index.html": "/cat-wiki/index.html",
+    "static/css/main.cfcebc22.chunk.css.map": "/cat-wiki/static/css/main.cfcebc22.chunk.css.map",
+    "static/js/2.562ff27b.chunk.js.LICENSE.txt": "/cat-wiki/static/js/2.562ff27b.chunk.js.LICENSE.txt",
+    "static/media/CatwikiLogo.92dea8ab.svg": "/cat-wiki/static/media/CatwikiLogo.92dea8ab.svg",
+    "static/media/TopSection.module.css": "/cat-wiki/static/media/HeroImagelg.b8e8da01.png",
+    "static/media/WhiteCatWikiLogo.05076823.svg": "/cat-wiki/static/media/WhiteCatWikiLogo.05076823.svg",
+    "static/media/image 1.ed2005d9.png": "/cat-wiki/static/media/image 1.ed2005d9.png",
+    "static/media/image 2.4e193fd0.png": "/cat-wiki/static/media/image 2.4e193fd0.png",
+    "static/media/image 3.084e290f.png": "/cat-wiki/static/media/image 3.084e290f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edd9ddf7.js",
+    "static/js/2.562ff27b.chunk.js",
+    "static/css/main.cfcebc22.chunk.css",
+    "static/js/main.dd6a7a92.chunk.js"
+  ]
+}
