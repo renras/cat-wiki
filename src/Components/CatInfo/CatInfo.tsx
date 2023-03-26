@@ -27,7 +27,9 @@ const CatInfo = () => {
           </Link>
           <div className={styles.image_container}>
             <div
-              style={{ backgroundImage: `url("${cat.image.url}")` }}
+              style={{
+                backgroundImage: `url("https://cdn2.thecatapi.com/images/${cat.reference_image_id}.jpg")`,
+              }}
               className={styles.main_image}
             ></div>
           </div>

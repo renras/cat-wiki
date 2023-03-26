@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { getCats } from "./store/appSlice";
 import { useAppDispatch, useAppSelector } from "./store/hooks";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
 import Header from "./Components/Header";
@@ -17,23 +17,25 @@ function App() {
     dispatch(getCats());
   }, [dispatch]);
 
-  return (
-    <>
-      {status === "success" ? (
-        <div className="App">
-          <Router>
-            <Header />
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path=":catName" element={<CatInfo />} />
-            </Routes>
-            <Footer />
-          </Router>
-        </div>
-      ) : (
+  if (status === "loading") {
+    return (
+      <div>
         <h1>Loading</h1>
-      )}
-    </>
+      </div>
+    );
+  }
+
+  return (
+    <div className="App">
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path=":catName" element={<CatInfo />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
